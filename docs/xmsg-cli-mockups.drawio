@@ -1,0 +1,253 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="aGKcRfbAle5KNDt8mZQq">
+    <mxGraphModel dx="2852" dy="2586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1aESUFR3UjwaacBhGVk-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="10" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="470" y="10" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-7" value="username" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-8" value="password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-9" value="Sign In" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-10" value="Not registered yet? Sign Up" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-11" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="10" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-12" value="username" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="180" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-13" value="password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-14" value="Sign Up" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="555" y="320" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-15" value="You have an account? Sign In" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="400" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-16" value="My chats" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="862" y="64" width="278" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-17" value="Alex Family chat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="862" y="110" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-18" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="870" y="123.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-19" value="Terminator T-800" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="862" y="200" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-20" value="mad mad boys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="862" y="290" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-21" value="T" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="870" y="213.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-22" value="m" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="870" y="303.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-23" value="user2001" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="862" y="380" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-24" value="u" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="870" y="393.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-1/24/menu-dots-128.png" vertex="1" parent="1">
+          <mxGeometry x="870" y="72" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="10" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-28" value="Search Chat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1261" y="64" width="278" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-30" value="Seacrh: happy" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="123.75" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-32" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.magnifying_glass;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="129.75" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-33" value="HappyUser" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1262" y="170" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-34" value="UserHappy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1262" y="260" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-35" value="happy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1262" y="350" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-36" value="chat of happy cats" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1262" y="440" width="278" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-37" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="851" y="710" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-38" value="mad mad boys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="863" y="764" width="278" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-40" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(49, 22, 22), rgb(237, 237, 237));&quot;&gt;25 June&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;qwerty: hello&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;18:25&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;qwerty: i&#39;m going to play dota. will U join?&amp;nbsp; &amp;nbsp; 18:25&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;proger: Sorry, I&#39;m very busy today&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20:51&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22); background-color: transparent;&quot;&gt;28 June&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;qwerty: hello&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;20:12&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: Hello! Dota?&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;20:18&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;qwerty: yes :)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20:21&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: GO!&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20:22&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22); background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22);&quot;&gt;29 June&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: I am going to sleep...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;04:19&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: Bro, I forgot to do my homework&amp;nbsp; &amp;nbsp; &amp;nbsp;04:20&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: rgb(49, 22, 22);&quot;&gt;&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;proger:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;OMG,&amp;nbsp;&lt;/span&gt;I won&#39;t go to school today&amp;nbsp; &amp;nbsp; &amp;nbsp;1&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2:37&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22);&quot;&gt;Today&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;qwerty: :)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 13:03&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="864" y="811" width="277" height="419" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-43" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.quickscroll3;dy=0.9;fillColor=#33b5e5;strokeColor=#66D5F5;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="820" width="6" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-44" value="&amp;nbsp;nice weather. mb go to the park?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="864" y="1230" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-45" value="send" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="1232.5" width="42" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-46" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-2/16/back-left-arrow-botton-128.png" vertex="1" parent="1">
+          <mxGeometry x="870" y="772" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-47" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="852.5" y="-640" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-48" value="My chats" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="864" y="-586" width="278" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/more_circle-128.png" vertex="1" parent="1">
+          <mxGeometry x="1102.5" y="772.25" width="29.5" height="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-51" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-2/16/back-left-arrow-botton-128.png" vertex="1" parent="1">
+          <mxGeometry x="1270" y="72" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-52" value="H" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="183.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-53" value="U" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="273.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-54" value="h" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="363.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-55" value="c" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="453.75" width="62.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-56" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;fillColor=#cce5ff;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.magnifying_glass;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1102.5" y="73" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="864" y="-586" width="149" height="492" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-58" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Mike" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="-586" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-59" value="M" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="870" y="-580.12" width="54.25" height="54.25" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-60" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.settings_office_365;" vertex="1" parent="1">
+          <mxGeometry x="873.13" y="-510" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-61" value="Settings" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="889.13" y="-517" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-62" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/geosm-e-commerce/48/exit-3-128.png" vertex="1" parent="1">
+          <mxGeometry x="873.13" y="-120" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-63" value="Log Out" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="889.13" y="-127" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-64" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="853" y="1400" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-65" value="mad mad boys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="865" y="1454" width="278" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-66" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-2/16/back-left-arrow-botton-128.png" vertex="1" parent="1">
+          <mxGeometry x="873.13" y="1462.25" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-67" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/more_circle-128.png" vertex="1" parent="1">
+          <mxGeometry x="1102.5" y="1462.25" width="29.5" height="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-68" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(49, 22, 22), rgb(237, 237, 237));&quot;&gt;25 June&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;qwerty: hello&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;18:25&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;qwerty: i&#39;m going to play dota. will U join?&amp;nbsp; &amp;nbsp; 18:25&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;proger: Sorry, I&#39;m very busy today&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20:51&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22); background-color: transparent;&quot;&gt;28 June&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;qwerty: hello&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;20:12&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: Hello! Dota?&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;20:18&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;qwerty: yes :)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20:21&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: GO!&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20:22&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22); background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22);&quot;&gt;29 June&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: I am going to sleep...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;04:19&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;proger: Bro, I forgot to do my homework&amp;nbsp; &amp;nbsp; &amp;nbsp;04:20&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: rgb(49, 22, 22);&quot;&gt;&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;proger:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;OMG,&amp;nbsp;&lt;/span&gt;I won&#39;t go to school today&amp;nbsp; &amp;nbsp; &amp;nbsp;1&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2:37&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(49, 22, 22);&quot;&gt;Today&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 22, 22); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;qwerty: :)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 13:03&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="865" y="1500" width="277" height="419" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-69" value="&amp;nbsp;nice weather. mb go to the park?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="865" y="1919" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-70" value="send" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="1921.5" width="42" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-72" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.quickscroll3;dy=0.911;fillColor=#33b5e5;strokeColor=#66D5F5;" vertex="1" parent="1">
+          <mxGeometry x="1134" y="1510" width="6" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-90" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="939" y="1458" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-91" value="Add/Remove user / Leave chat" style="text;strokeColor=#DFDFDF;fillColor=#F7F7F7;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.topButton;rSize=5;fontColor=#333333;" vertex="1" parent="c1aESUFR3UjwaacBhGVk-90">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-92" value="Rename chat" style="text;strokeColor=#DFDFDF;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#333333;" vertex="1" parent="c1aESUFR3UjwaacBhGVk-90">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-93" value="Clear History" style="text;strokeColor=#DFDFDF;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#333333;" vertex="1" parent="c1aESUFR3UjwaacBhGVk-90">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-94" value="Delete chat" style="text;strokeColor=#DFDFDF;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#333333;" vertex="1" parent="c1aESUFR3UjwaacBhGVk-90">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-95" value="Login page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="630" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-96" value="Registration page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="630" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-97" value="My chats (main page)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="630" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-98" value="Chat page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="878" y="1320" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-99" value="chat options menu" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="2010" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-100" value="Search page (users and chats)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1276" y="630" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-101" value="Main menu tab (left tab)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="877.5" y="-30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-102" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="10" width="300" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-103" value="User found (chat not created yet. not friends)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="630" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-104" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;HappyUser&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1631" y="64" width="278" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-105" value="H" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="67.63" width="38.75" height="38.75" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-106" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-2/16/back-left-arrow-botton-128.png" vertex="1" parent="1">
+          <mxGeometry x="1645" y="72" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-107" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/more_circle-128.png" vertex="1" parent="1">
+          <mxGeometry x="1865.5" y="73" width="29.5" height="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-108" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#311616&quot;&gt;no messages yet&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1632" y="111" width="277" height="419" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-109" value="&amp;nbsp;nice weather. mb go to the park?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1632" y="525" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1aESUFR3UjwaacBhGVk-110" value="send" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1864.5" y="527.5" width="42" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
