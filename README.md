@@ -4,9 +4,9 @@
 #### Подготовка:
 1. download json libs and put it into ./app/gradle/...
 2. git clone + open this app dir (./app/) in the Android Studio
-3. add 3-party libs to /app/build.gradle dependencies: okhttp for http-request and json; also sha1
+3. add 3-party libs to /app/build.gradle dependencies: json
 	dependencies {
-    	implementation("com.squareup.okhttp3:okhttp:5.1.0")
+    	implementation 'org.json:json:20250517'
 		...
 	}
 
@@ -39,12 +39,15 @@ project files tree
 			SecondFragment to ChatFragment.java
 			fragment_first.xml to fragment_allchats.xml
 			fragment_second.xml to fragment_chat.xml
-3. okhttp3: add 3-party lib to /app/build.gradle dependencies
+3. json: add 3-party lib to /app/build.gradle dependencies
 	dependencies {
-		implementation("com.squareup.okhttp3:okhttp:5.1.0")
+		implementation 'org.json:json:20250517'
 		...
 	}
 ```
+
+org.json - versions
+	https://mvnrepository.com/artifact/org.json/json
 
 
 #### Мокапы:
