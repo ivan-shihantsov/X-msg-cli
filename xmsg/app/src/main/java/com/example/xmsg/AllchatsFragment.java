@@ -32,6 +32,8 @@ public class AllchatsFragment extends Fragment implements HTTPReqTask.CustomCall
 
     public void showChat (String chatIcon, String chatName) {
         TableRow row = new TableRow(getActivity());
+        row.setPadding(0,50,0,50);
+
         TextView tv = new TextView(getActivity());
         tv.setText(chatIcon);
         row.addView(tv);
