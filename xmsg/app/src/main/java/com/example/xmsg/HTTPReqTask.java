@@ -12,6 +12,9 @@ import java.net.URL;
 import java.net.URI;
 import android.os.AsyncTask;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+
 import java.util.Map;
 import org.json.JSONObject;
 
@@ -98,6 +101,24 @@ public class HTTPReqTask extends AsyncTask<String, Void, Void> {
         }
 
         return null;
+    }
+
+    public static String sha1(String input) {
+        String hashtext = null;
+        try {
+            MessageDigest md = MessageDigest.getInstance("SHA-1");
+            byte[] messageDigest = md.digest(input.getBytes("UTF-8"));
+
+            BigInteger no = new BigInteger(1, messageDigest);
+
+            hashtext = no.toString(16);
+            while (hashtext.length() < 40) {
+                hashtext = "0" + hashtext;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return hashtext;
     }
 
     public interface CustomCallback {

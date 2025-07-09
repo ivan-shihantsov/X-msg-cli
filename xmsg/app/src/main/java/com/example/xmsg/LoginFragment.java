@@ -19,9 +19,6 @@ import com.example.xmsg.databinding.FragmentLoginBinding;
 import java.util.Map;
 import java.util.HashMap;
 
-import java.security.MessageDigest;
-import java.math.BigInteger;
-
 
 public class LoginFragment extends Fragment implements HTTPReqTask.CustomCallback {
 
@@ -65,6 +62,10 @@ public class LoginFragment extends Fragment implements HTTPReqTask.CustomCallbac
     }
 
     private void checkLogin (String login, String pass) {
+        // must discover user_id corresponding to this login
+        String myUserID = "1"; // fix it later
+        String passHash = HTTPReqTask.sha1(pass);
+
         // it's data to just send to server
         // Map<String, String> postData = new HashMap<>();
         // postData.put("chat_id", "000");
@@ -73,13 +74,10 @@ public class LoginFragment extends Fragment implements HTTPReqTask.CustomCallbac
 
         // null: '/signin' endpoint needn't additional data to send
         HTTPReqTask reqTask = new HTTPReqTask(null, this);
-        reqTask.execute("POST", "/signin", "1", sha1(pass)); // params: reqType, endpoint, user_id, password
-
-        // add async wait for result
-        // because now responseLine == "not-a-response" (always!)
-        // String responseLine = reqTask.getRESPONSE_LINE();
-        // System.out.println("checkLogin response: " + responseLine);
+        // params: reqType, endpoint, user_id, password
+        reqTask.execute("POST", "/signin", myUserID, passHash);
     }
+
 
     public void finishCheckLogin(String response) {
         loginPgPass.setText(""); // clear the password field
@@ -101,31 +99,10 @@ public class LoginFragment extends Fragment implements HTTPReqTask.CustomCallbac
             case "/signin":
                 finishCheckLogin(response);
                 break;
-            case "/signup":
-                // Do something
-                break;
             default: break;
         }
     }
 
-
-    public String sha1(String input) {
-        String hashtext = null;
-        try {
-            MessageDigest md = MessageDigest.getInstance("SHA-1");
-            byte[] messageDigest = md.digest(input.getBytes("UTF-8"));
-
-            BigInteger no = new BigInteger(1, messageDigest);
-
-            hashtext = no.toString(16);
-            while (hashtext.length() < 40) {
-                hashtext = "0" + hashtext;
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return hashtext;
-    }
 
     @Override
     public void onDestroyView() {
