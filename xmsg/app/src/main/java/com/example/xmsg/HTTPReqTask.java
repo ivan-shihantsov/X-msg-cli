@@ -16,29 +16,34 @@ import org.json.JSONObject;
 
 
 public class HTTPReqTask extends AsyncTask<Void, Void, Void> {
+    private static final String REQ_METHOD = "POST";
     private static final String CONTENT_TYPE = "application/json";
     private static final String BASE_URL = "http://192.168.100.59:8001";
-    private static final String MY_USER_ID = "7";
-    private static final String MY_PASS_HASH = "b1b3773a05c0ed0176787a4f1574ff0075f7521e";
+
+
+    // next are changeable data - specific for each request
+    private String USER_ID = "not-user-id";
+    private String USER_KEY = "not-sha1-hashsum";
+    private String ENDPOINT = "/not-existing-endpoint";
+    private String RESPONSE_LINE;
+
 
     @Override
     protected Void doInBackground(Void... params) {
-        System.out.println("start");
-        String requestMethod = "POST";
-        String url_line = BASE_URL + "/signin";
+        String url_line = BASE_URL + ENDPOINT;
 
         HttpURLConnection con = null;
 
         try {
             JSONObject postData = new JSONObject();
-            postData.put("user_id", "7");
-            postData.put("key", "6ed66eac474e5379251d44b851edfa7e85432250");
+            postData.put("user_id", USER_ID);
+            postData.put("key", USER_KEY);
 
             URL url = URI.create(url_line).toURL();
 
             con = (HttpURLConnection) url.openConnection();
             con.setRequestProperty("Content-Type", CONTENT_TYPE);
-            con.setRequestMethod(requestMethod);
+            con.setRequestMethod(REQ_METHOD);
             con.setDoOutput(true);
 
             OutputStream os = con.getOutputStream();
@@ -51,12 +56,15 @@ public class HTTPReqTask extends AsyncTask<Void, Void, Void> {
             int responseCode = con.getResponseCode();
 
             try(BufferedReader br = new BufferedReader(
-                    new InputStreamReader(con.getInputStream(), "utf-8"))) {
+                    new InputStreamReader(con.getInputStream(), "UTF-8"))) {
+                StringBuilder response = new StringBuilder();
                 String responseLine;
                 while ((responseLine = br.readLine()) != null) {
-                    System.out.println(responseCode);
-                    System.out.println(responseLine);
+                    response.append(responseLine.trim());
                 }
+                RESPONSE_LINE = response.toString();
+                System.out.println(responseCode);
+                System.out.println(RESPONSE_LINE);
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("Response Code: " + responseCode);
@@ -70,5 +78,21 @@ public class HTTPReqTask extends AsyncTask<Void, Void, Void> {
         }
 
         return null;
+    }
+
+    public void setUSER_ID(String USER_ID) {
+        this.USER_ID = USER_ID;
+    }
+
+    public void setUSER_KEY(String USER_KEY) {
+        this.USER_KEY = USER_KEY;
+    }
+
+    public void setENDPOINT(String ENDPOINT) {
+        this.ENDPOINT = ENDPOINT;
+    }
+
+    public String getRESPONSE_LINE() {
+        return RESPONSE_LINE;
     }
 }
