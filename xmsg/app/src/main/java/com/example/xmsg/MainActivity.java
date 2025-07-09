@@ -8,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
+import android.widget.EditText;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -16,10 +17,17 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.xmsg.databinding.ActivityMainBinding;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+    private String myUsername = "qwerty"; // fix it later
+    private String myUserID = "1"; // fix it later
+    private String pass = "qwerty"; // fix it later
+    private String passHash = "b1b3773a05c0ed0176787a4f1574ff0075f7521e"; // fix it later
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,4 +63,21 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+    public String getMyUsername() {
+        return myUsername;
+    }
+
+    public String getMyUserID() {
+        return myUserID;
+    }
+
+    public String getPass() {
+        return pass;
+    }
+
+    public String getPassHash() {
+        return passHash;
+    }
+
 }
