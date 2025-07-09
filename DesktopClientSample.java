@@ -7,9 +7,9 @@ import java.net.URL;
 import java.net.URI;
 
 
-public class HelloWorld {
+public class DesktopClientSample {
     private static final String CONTENT_TYPE = "application/json";
-    private static final String BASE_URL = "http://192.168.100.59:8001";
+    private static final String BASE_URL = "http://127.0.0.1:8001";
     private static final String MY_USER_ID = "7";
 	private static final String MY_PASS_HASH = "b1b3773a05c0ed0176787a4f1574ff0075f7521e";
 	
