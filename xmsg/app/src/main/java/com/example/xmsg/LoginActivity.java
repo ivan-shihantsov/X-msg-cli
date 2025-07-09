@@ -1,6 +1,5 @@
 package com.example.xmsg;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -43,11 +42,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-
-    // public void startMainActivity(View v) {
-    //    Intent intent = new Intent(this, MainActivity.class);
-    //    startActivity(intent);
-    //}
 
     @Override
     public boolean onSupportNavigateUp() {

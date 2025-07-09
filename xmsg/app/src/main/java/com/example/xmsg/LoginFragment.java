@@ -16,11 +16,14 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.xmsg.databinding.FragmentLoginBinding;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import java.security.MessageDigest;
 import java.math.BigInteger;
 
 
-public class LoginFragment extends Fragment {
+public class LoginFragment extends Fragment implements HTTPReqTask.CustomCallback {
 
     private FragmentLoginBinding binding;
     private Button signInBtn;
@@ -47,8 +50,6 @@ public class LoginFragment extends Fragment {
                         .navigate(R.id.action_FirstFragment_to_SecondFragment)
         );
 
-        // new HTTPReqTask().execute();
-
         signInBtn = binding.signInBtn;
         loginPgUsername = binding.loginPgUsername;
         loginPgPass = binding.loginPgPass;
@@ -58,36 +59,55 @@ public class LoginFragment extends Fragment {
             public void onClick(View v) {
                 String login = String.valueOf(loginPgUsername.getText());
                 String pass = String.valueOf(loginPgPass.getText());
-
-                if (checkLogin(login, pass)) {
-                    Intent intent = new Intent(getActivity(), MainActivity.class);
-                    startActivity(intent);
-                } else {
-                    loginPgPass.setText(""); // clear the password field
-                    Toast.makeText(getParentFragment().getContext(), "Login failed. Try again", Toast.LENGTH_LONG).show();
-                }
+                checkLogin(login, pass);
             }
         });
     }
 
-    private boolean checkLogin (String login, String pass) {
-        HTTPReqTask req = new HTTPReqTask();
-        req.setUSER_ID("7"); // now it's magic. later we'll know our user_id
-        req.setUSER_KEY(sha1(pass));
-        req.setENDPOINT("/signin");
-        req.execute();
-        String responseLine = req.getRESPONSE_LINE();
-        System.out.println("checkLogin response: " + responseLine);
+    private void checkLogin (String login, String pass) {
+        // it's data to just send to server
+        // Map<String, String> postData = new HashMap<>();
+        // postData.put("chat_id", "000");
+        // postData.put("last_msg_id", "000");
+        // HTTPReqTask reqTask = new HTTPReqTask(postData, this);
 
-        // TODO: replace dummy with check above
-        if (login.equals("hello") && pass.equals("world")) {
+        // null: '/signin' endpoint needn't additional data to send
+        HTTPReqTask reqTask = new HTTPReqTask(null, this);
+        reqTask.execute("POST", "/signin", "1", sha1(pass)); // params: reqType, endpoint, user_id, password
+
+        // add async wait for result
+        // because now responseLine == "not-a-response" (always!)
+        // String responseLine = reqTask.getRESPONSE_LINE();
+        // System.out.println("checkLogin response: " + responseLine);
+    }
+
+    public void finishCheckLogin(String response) {
+        loginPgPass.setText(""); // clear the password field
+
+        if (response.equals("<p>access allowed</p>")) {
             // login ok
-            return true;
+            Intent intent = new Intent(getActivity(), MainActivity.class);
+            startActivity(intent);
         } else {
             // login failed
-            return false;
+            Toast.makeText(getParentFragment().getContext(), "Login failed. Try again", Toast.LENGTH_LONG).show();
         }
     }
+
+
+    @Override
+    public void completionHandler (String endpoint, String response) {
+        switch (endpoint) {
+            case "/signin":
+                finishCheckLogin(response);
+                break;
+            case "/signup":
+                // Do something
+                break;
+            default: break;
+        }
+    }
+
 
     public String sha1(String input) {
         String hashtext = null;

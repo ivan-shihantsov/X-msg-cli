@@ -12,11 +12,12 @@ import java.net.URL;
 import java.net.URI;
 import android.os.AsyncTask;
 
+import java.util.Map;
 import org.json.JSONObject;
 
 
-public class HTTPReqTask extends AsyncTask<Void, Void, Void> {
-    private static final String REQ_METHOD = "POST";
+public class HTTPReqTask extends AsyncTask<String, Void, Void> {
+    private String REQ_METHOD = "POST";
     private static final String CONTENT_TYPE = "application/json";
     private static final String BASE_URL = "http://192.168.100.59:8001";
 
@@ -25,11 +26,28 @@ public class HTTPReqTask extends AsyncTask<Void, Void, Void> {
     private String USER_ID = "not-user-id";
     private String USER_KEY = "not-sha1-hashsum";
     private String ENDPOINT = "/not-existing-endpoint";
-    private String RESPONSE_LINE;
+    private String RESPONSE_LINE = "not-a-response";
+    private CustomCallback reqCallback;
 
+    // This is the JSON body of the post
+    private JSONObject postData;
+    // This is a constructor that allows you to pass in the JSON body
+
+    public HTTPReqTask(Map<String, String> postData, CustomCallback callback) {
+        if (postData != null) {
+            this.postData = new JSONObject(postData);
+        }
+        this.reqCallback = callback;
+    }
 
     @Override
-    protected Void doInBackground(Void... params) {
+    protected Void doInBackground(String... params) {
+        // params: 0. requestMethod, 1. endpoint, 2. user_id, 3. password
+        REQ_METHOD = params[0];
+        USER_ID = params[2];
+        USER_KEY = params[3];
+
+        ENDPOINT = params[1];
         String url_line = BASE_URL + ENDPOINT;
 
         HttpURLConnection con = null;
@@ -63,11 +81,13 @@ public class HTTPReqTask extends AsyncTask<Void, Void, Void> {
                     response.append(responseLine.trim());
                 }
                 RESPONSE_LINE = response.toString();
-                System.out.println(responseCode);
-                System.out.println(RESPONSE_LINE);
+                System.out.println("My HTTP responseCode: " + responseCode);
+                System.out.println("My HTTP RESPONSE_LINE: " + RESPONSE_LINE);
+
+                reqCallback.completionHandler(ENDPOINT, RESPONSE_LINE);
+
             } catch (Exception e) {
                 e.printStackTrace();
-                System.out.println("Response Code: " + responseCode);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -80,19 +100,11 @@ public class HTTPReqTask extends AsyncTask<Void, Void, Void> {
         return null;
     }
 
-    public void setUSER_ID(String USER_ID) {
-        this.USER_ID = USER_ID;
+    public interface CustomCallback {
+        // call this function from AsyncTask
+        // when ready to call back controller (fragment)
+        // Object object: is something that you need to send to controller
+        void completionHandler(String endpoint, String response);
     }
 
-    public void setUSER_KEY(String USER_KEY) {
-        this.USER_KEY = USER_KEY;
-    }
-
-    public void setENDPOINT(String ENDPOINT) {
-        this.ENDPOINT = ENDPOINT;
-    }
-
-    public String getRESPONSE_LINE() {
-        return RESPONSE_LINE;
-    }
 }
