@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.view.*;
 import android.widget.*;
 
+import org.json.JSONObject;
+import org.json.JSONArray;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
@@ -11,7 +14,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.xmsg.databinding.FragmentAllchatsBinding;
 
 
-public class AllchatsFragment extends Fragment {
+public class AllchatsFragment extends Fragment implements HTTPReqTask.CustomCallback {
 
     private FragmentAllchatsBinding binding;
     private TableLayout table;
@@ -40,6 +43,44 @@ public class AllchatsFragment extends Fragment {
         table.addView(row);
     }
 
+    public void updateChatsList () {
+        String myUsername = "qwerty"; // fix it later
+        String myUserID = "1"; // fix it later
+        String pass = "qwerty"; // fix it later
+        String passHash = HTTPReqTask.sha1(pass); // fix it later
+
+        // null: '/getchats' endpoint needn't additional data to send
+        HTTPReqTask reqTask = new HTTPReqTask(null, this);
+
+        // params: reqType, endpoint, user_id, password
+        reqTask.execute("POST", "/getchats", myUserID, passHash);
+    }
+
+    public void finishUpdateChatsList (String response) {
+        table = (TableLayout) binding.chatsTable;
+        table.removeAllViews();
+        int chatsNum = 0;
+
+        try {
+            JSONArray jsonArray = new JSONArray(response);
+            chatsNum = jsonArray.length();
+            for (int i = 0; i < chatsNum; i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                String admin = obj.getString("admin");
+                String chat_id = obj.getString("chat_id");
+                String chat_name = obj.getString("chat_name");
+                String color = obj.getString("color");
+                String created_at = obj.getString("created_at");
+
+                String chatLogoLetter = chat_name.substring(0,1);
+                showChat ("  " + chatLogoLetter +  " (" + color + ")     ", chat_name);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -49,31 +90,17 @@ public class AllchatsFragment extends Fragment {
                         .navigate(R.id.action_First2Fragment_to_Second2Fragment)
         );
 
-        // int columnNumber = 3;
-        // int rowNumber = 3;
-        // table = (TableLayout) binding.chatsTable;
-        // table.removeAllViews();
+        updateChatsList();
+    }
 
-        // for (int i=0; i<rowNumber; i++) {
-        //    TableRow row = new TableRow(getActivity());
-        //    for (int j=0; i<columnNumber; i++) {
-        //        int value = 42;
-        //        TextView tv = new TextView(getActivity());
-        //        tv.setText(String.valueOf(value));
-        //        row.addView(tv);
-        //    }
-        //    table.addView(row);
-        //}
-
-        table = (TableLayout) binding.chatsTable;
-        table.removeAllViews();
-        showChat ("  A (#f06359)     ", "Alex Family chat");
-        showChat (" ", " ");
-        showChat ("  T (#f06359)     ", "Terminator T-800");
-        showChat (" ", " ");
-        showChat ("  m (#f06359)     ", "mad mad boys");
-        showChat (" ", " ");
-        showChat ("  u (#f06359)     ", "user2001");
+    @Override
+    public void completionHandler (String endpoint, String response) {
+        switch (endpoint) {
+            case "/getchats":
+                finishUpdateChatsList(response);
+                break;
+            default: break;
+        }
     }
 
     @Override
