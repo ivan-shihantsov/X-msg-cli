@@ -82,9 +82,7 @@ public class LoginFragment extends Fragment implements HTTPReqTask.CustomCallbac
     public void finishCheckLogin(String response) {
         // loginPgPass.setText(""); // clear the password field - breaks the app: concurrent thread
 
-        if (response.equals("<p>access allowed</p>")) {
-            System.out.println("access allowed");
-        } else {
+        if (!response.equals("<p>access allowed</p>")) {
             // login failed
             Toast.makeText(getParentFragment().getContext(), "Login failed. Try again", Toast.LENGTH_LONG).show();
             return;
