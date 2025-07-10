@@ -59,8 +59,7 @@ public class ChatFragment extends Fragment {
         showMessage (" ", " ", " ");
         showMessage ("  20:51  |  ", "proger:  ", "Sorry, I'm very busy today");
 
-        // Client.main();
-        // new Client().execute();
+
     }
 
     @Override
