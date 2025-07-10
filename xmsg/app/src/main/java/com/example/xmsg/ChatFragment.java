@@ -1,5 +1,9 @@
 package com.example.xmsg;
 
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.ZoneId;
+
 import android.os.Bundle;
 import android.view.*;
 import android.widget.*;
@@ -51,6 +55,18 @@ public class ChatFragment extends Fragment {
                         .navigate(R.id.action_Second2Fragment_to_First2Fragment)
         );
 
+        // next work with time
+        String chatCreated = "2025-07-10 13:56:38 +0000"; // UTC+0 - we get from server
+
+        DateTimeFormatter chatCreatedFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss Z");
+        ZonedDateTime zonedDateTimeUTC = ZonedDateTime.parse(chatCreated, chatCreatedFormatter);
+
+        // adapt for client
+        ZoneId myTZ = ZoneId.systemDefault();
+        ZonedDateTime zonedDateTimeMy = zonedDateTimeUTC.withZoneSameInstant(myTZ);
+        // now we can use it in the UI
+        // zonedDateTimeMy.getHour() + ":" + zonedDateTimeMy.getMinute()
+
         table = (TableLayout) binding.msgsTable;
         table.removeAllViews();
         showMessage ("  18:25  |  ", "qwerty:  ", "hello");
@@ -58,8 +74,6 @@ public class ChatFragment extends Fragment {
         showMessage ("  18:25  |  ", "qwerty:  ", "i'm going to play dota. will U join?");
         showMessage (" ", " ", " ");
         showMessage ("  20:51  |  ", "proger:  ", "Sorry, I'm very busy today");
-
-
     }
 
     @Override
